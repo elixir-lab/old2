@@ -1,7 +1,5 @@
 defmodule Hangman.Dictionary do
 
-  use GenServer
-
   @word_list_file_name Path.expand("../../assets/words.8800", __DIR__)
 
   @word_list @word_list_file_name
